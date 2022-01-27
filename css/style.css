@@ -184,3 +184,35 @@ section.footer p{
      font-family: 'Lato';
      font-size: 1rem;
  }
+
+ 
+#menu{
+    margin-top: 5px;
+    display: flex;
+    float: left;
+    padding-top: 3rem;
+}
+
+.leftmenu{
+    background-color: #E7E9EB;
+    width: 20rem;
+}
+
+.leftmenu a:link{
+    padding: 50px;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 13px;
+    text-decoration: none;
+}
+
+.onlycontent{
+    padding-left: 60px;
+}
+
+pre{
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    font-size: 18px; 
+}
