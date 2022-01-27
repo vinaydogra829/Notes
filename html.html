@@ -24,8 +24,8 @@
                         <a href="index.html">HOME</a>
                         <a href="#">HTML</a>
                         <a href="css.html">CSS</a>
-                        <a href="#">UPLOADATION</a>
-                        <a href="#">Blog</a>
+                        <a href="#">Bootstrap</a>
+                        <a href="#">Javascript</a>
                     </div>
                 </div>
                 <div class="right">
@@ -58,6 +58,9 @@
                 <a href="#important" style="color:black"><strong>HTML Tags</strong></a><br><br> <hr>
                 <a href="#inputs" style="color:black"><strong>HTML 5 New Inputs</strong></a><br><br> <hr>
                 <a href="#color" style="color:black"><strong> Color Codes </strong></a><br><br> <hr>
+                <a href="#script" style="color:black"><strong> Script </strong></a><br><br> <hr>
+                <a href="#get" style="color:black"><strong> GET Method </strong></a><br><br> <hr>
+                <a href="#post" style="color:black"><strong> POST Method </strong></a><br><br> <hr>
               
             </div>
 
@@ -77,6 +80,9 @@
                         - We need to write a lot of code for making
                           simple page.
                         - Security fetures of HTML are not good.</pre>
+                        <div class="btnn">
+                            <a href="css.html"> Back </a>
+                        </div>
                 </div>
                 <br> <hr> <br>
                 <div id="history">
@@ -90,6 +96,9 @@
 			 - 2008		HTML 5
 			 - 2016		HTML 5.1
                     </pre>
+                    <div class="btnn">
+                        <a href="css.html"> Back </a>
+                    </div>
                 </div>
                 <br> <hr> <br>
                 <div id="paired">
@@ -97,7 +106,7 @@
                     <pre>
     What is Tag ?
      - Text palced between '<' and '>' is called as tag
-	Eg <html>
+	Eg &lthtml>
 	
     Tags are classified into two types
 	    1. Paired tags
@@ -130,10 +139,13 @@
 		   iii)Empty tags
 		   iv)Singular tags.
 		
-	    Eg	<br>	or 	<br/>	Break tag(line break)
-		<hr>	or 	<hr/>	Hrizontal rule (h. line)
+	    Eg	&ltbr>	or 	&ltbr/>	Break tag(line break)
+		 &lthr>	or 	&lthr/>	Hrizontal rule (h. line)
 		 <img>	or	<img/>	image tag
                     </pre>
+                    <div class="btnn">
+                        <a href="css.html"> Back </a>
+                    </div>
                 </div>
                 <br> <hr> <br>
                 <div id="important">
@@ -157,10 +169,14 @@
             &ltrt&gt	It defines explanations and pronunciations of characters in ruby annotations.
             &ltruby&gt	It defines ruby annotations (Specifically for Asian language).
             &ltsection&gt	It defines a generic section within an HTML document.
-            &ltsummary&gt	It defines summary or caption for a element which can be clicked to change the state of  element.
+            &ltsummary&gt	It defines summary or caption for a element which can be clicked to change 
+                            the state of  element.
             &lttime&gt	It defines data/time within an HTML document.
             &ltwbr&gt	It specifies a line break opportunity. (Where line break possible)
                     </pre>
+                    <div class="btnn">
+                        <a href="css.html"> Back </a>
+                    </div>
                 </div>
                 <br> <hr> <br>
                 <div id="inputs">
@@ -180,6 +196,9 @@ time			Time indicator and selector, with no time zone information
 url			Input type should be URL type.
 week			Selector for a week within a given year
                     </pre>
+                    <div class="btnn">
+                        <a href="css.html"> Back </a>
+                    </div>
                 </div>
                 <br> <hr> <br>
                 <div id="color">
@@ -203,6 +222,96 @@ week			Selector for a week within a given year
 
        # FF FF FF -> Blue #0000FF
                     </pre>
+                    <div class="btnn">
+                        <a href="css.html"> Back </a>
+                    </div>
+                </div> <br> <hr> <br>
+                <div id="script">
+                    <h1 class="h1"> Script </h1>
+                    <pre>
+ -It is used to apply the script.
+ -It is a paired tag.
+ Eg.
+   &lt!doctype html>
+   &lthtml>
+   &lthead>
+   &lttitle>Script Demo&lt/title>
+   &ltscript type = "text/javascript" language = "javascript">
+      function myAlert()
+      {
+     alert("Button Clicked")
+       }    
+    &lt/script> &lt/head>
+    &ltbody>
+    &ltp>If you click on the button alert message will be displayed</p>
+    &ltbutton onclick = "myAlert()">Click Me&lt/button> &lt/body>
+    &lt/html>
+                    </pre>
+                    <div class="btnn">
+                        <a href="css.html"> Back </a>
+                    </div>
+                </div>
+                <div id="get">
+                    <h1 class="h1"> GET Method</h1>
+                    <pre>
+    -This method is not secure for data.
+    -This method is used to send only limited data (2MB).
+    -It can carry raw data from client to server.
+    -Fastest response method.
+    -Features of Get Method
+    -Get requests can be cached.
+    -Get requests remain in browser history
+    -Get requests should not deal with sensitive data.
+    -Get requests' length is restricted.
+    -Get requests have excellent performance.
+    -Get requests can not upload images.
+
+    <strong>Eg: </strong>                    
+
+    &lt!doctype html>
+    &lthtml>
+    &lthead>
+    &lt/head>
+    &ltbody>
+    &ltform Method = "GET" action = "https://www.google.com" name = "my_form>
+    &ltlabel>Username:- &lt/label>&ltinput type = "text" name = "uname" placeholder = "Enter Username">
+    &ltlabel>Password:- &lt/label>&ltinput type = "password" name = "upwd" placeholder = "Enter Password">
+    &ltinput type = "submit" value = "Login">
+    input type = "Reset" value = "Clear">
+    &lt/form>
+    &lt/body>
+    &lt/html>
+                    </pre>
+                    <div class="btnn">
+                        <a href="css.html"> Back </a>
+                    </div>
+                </div>
+                <br><hr><br>
+                <div id="post">
+                    <h1 class="h1"> POST Method</h1>
+                    <pre>
+    -This method provides security for data.
+    -This method can send bulk of data.
+    -It can carry encrypted data from client to server.
+    -Fastest response method.
+    -Features of Get Method
+    -Post requests can not be cached.
+    -Post requests do not remain in browser history
+    -Post requests can deal with sensitive data.
+    -Post requests have no limit for length of data.
+    -Post requests have good performance.
+    -Post requests can upload images.
+    -Post requests can not be bookmarked.
+    -HTTP Status Messages
+            1xx -> 100 to 199 : Informational
+            2xx -> 200 to 299 : Successful
+            3xx -> 300 to 399 : Redirection
+            4xx -> 400 to 499 : Client Side Error
+            5xx -> 500 to 599 : Server Side Error
+                    </pre>
+                    <div class="btnn">
+                        <a href="css.html"> Back </a>
+                    </div>
                 </div>
 
             </div>

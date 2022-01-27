@@ -216,3 +216,12 @@ pre{
     margin-block-end: 1rem;
     font-size: 18px; 
 }
+
+.btnn{
+    float: right;
+    display: inline-block;
+    width: 3rem;
+    background-color: #3DCFD3;
+}
+
+

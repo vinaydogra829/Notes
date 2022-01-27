@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>  
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+            <nav class="flex items-center justify-between ">
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <img src="./images/logo.svg" alt="">
+                    </div>
+                    <div>
+                        <a href="index.html">HOME</a>
+                        <a href="html.html">HTML</a>
+                        <a href="css.html">CSS</a>
+                        <a href="#">Bootstrap</a>
+                        <a href="javascript.html">Javascript</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <button class="btn btn-primary">CONTACT</button>
+                </div>
+            </nav>
+
+            <div class="me flex items-center justify-between">
+                <div class="left flex-1">
+                    <img src="./images/back.jpg">
+                </div>
+                <div class="right flex-1">
+                    <h1><span>Bootstrap</span>  <br>Section</h1>
+                    <p> Here are my notes about HTML and CSS with the best
+                        theory and practical knowledge. </p>
+
+                    <div>
+                        <button class="btn btn-secondary"> DOWNLOAD NOTES</button>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </header>
+
+        <div id="menu">
+            <div class="leftmenu">
+                <a href="#boot" style="color:black"><strong>Bootstrap </strong></a><br><br> <hr>
+                <a href="#boothistory" style="color:black"><strong>History of Bootstrap</strong></a><br><br> <hr>
+                <a href="#bootcolr" style="color:black"><strong>Colors in Bootstrap</strong></a><br><br> <hr>
+                <a href="#bootlist" style="color:black"><strong> List </strong></a><br><br> <hr>
+                <a href="#modal" style="color:black"><strong>Modal/Popup</strong></a><br><br> <hr>
+                <a href="#bootinput" style="color:black"><strong> Input Groups </strong></a><br><br> <hr>
+                <a href="#bootforms" style="color:black"><strong> Forms </strong></a><br><br> <hr>
+              
+            </div>
+
+            <div class="onlycontent">
+                <div id="boot">
+                    <h1 class="h1"> Bootstrap </h1>
+                <pre>
+    -Bootstrap is open-source framework of CSS.
+    -It helps in designing responsive and device friendly web pages.
+    -Bootstrap includes CSS and optional scripting templates.
+    -This framework helps in faster web development.
+                </pre>
+                <div class="btnn">
+                    <a href="bootstrap.html"> Back </a>
+                </div>
+                </div>
+                <br><hr><br>
+
+                <div id="boothistory">
+                    <h1 class="h1"> History </h1>
+                    <pre>
+    -Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter in August 2011.
+    -Bootstrap 2.x was released on 31st January 2012, with builtin support for Glyficons.
+    -Bootstrap 3 was released on 19 August, 2013.
+    -V3 focussed on mobile first approach.
+    -Bootstrap 4 was announced on 29th October and stable release was on 18th January 2018.
+    -Stable version is 4.5
+                    </pre>
+                    <div class="btnn">
+                        <a href="bootstrap.html"> Back </a>
+                    </div>
+                </div>
+<br><hr><br>
+                <div id="bootcolr">
+                    <h1 class="h1"> Colors in Bootstrap</h1>
+                    <pre>
+    -Bootstrap supports following colors:-
+
+            -primary
+            -secondary
+            -success
+            -danger
+            -warning
+            -info
+            -dark
+            -light
+            -white
+            -black
+            -white-50%
+            -black-50%
+                    </pre>
+                    <div class="btnn">
+                        <a href="bootstrap.html"> Back </a>
+                    </div>
+                </div>
+                <br><hr><br>
+
+
+                <div id="bootlist">
+                    <h1 class="h1"> List </h1>
+                    <pre>
+    -Class is list-group
+        -list-group-item
+        -list-group-item-action (clickable)
+        -list-group-item-color
+        -list-group-horizontal
+        -list-group-item active/disabled
+
+    -Basic Example
+
+        &ltul class="list-group">
+        &ltli class="list-group-item">Item 1&lt/li>
+        &ltli class="list-group-item list-group-item-action active">Item 2&lt/li>
+        &ltli class="list-group-item list-group-item disabled">Item 3&lt/li>
+        &lt/ul>
+                    </pre>
+                    <div class="btnn">
+                        <a href="bootstrap.html"> Back </a>
+                    </div>
+                </div>
+                <br><hr><br>
+
+                <div id="modal">
+                <h1 class="h1"> Modal/Popup</h1>
+                <pre>
+    -Sizes : sm(small) m(medium) lg(largre)
+    -Buttons : btn class
+    -fontawesome : lib
+
+   -Operations
+        -show modal : data-toggle="modal"
+        -set target : data-target="#my_division"
+        -disable 'Esc' : data-keyboard="false"
+        -disable mouse click : data-backdrop="static"
+        -enable tabs : tabindex= -1
+        -close modal : data-dismiss="modal"
+      Eg:
+
+        &ltdiv class="modal" tabindex="-1" role="dialog">
+        &ltdiv class="modal-dialog" role="document">
+        &ltdiv class="modal-content">
+        &ltdiv class="modal-header">
+        &lth5 class="modal-title">Modal title&lt/h5>
+        &ltbutton type="button" class="close" data-dismiss="modal" aria-label="Close">
+        &ltspan aria-hidden="true"> × &lt/span>
+        &lt/button>
+        &lt/div>
+        &ltdiv class="modal-body">
+        &ltp>Modal body text goes here.&lt/p>
+        &lt/div>
+        &ltdiv class="modal-footer">
+        &ltbutton type="button" class="btn btn-primary">Save changes&lt/button>
+        &ltbutton type="button" class="btn btn-secondary" data-dismiss="modal">Close&lt/button>
+        &lt/div>
+        &lt/div>
+        &lt/div>
+        &lt/div>
+                </pre>
+                <div class="btnn">
+                    <a href="bootstrap.html"> Back </a>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div id="bootinput">
+                <h1 class="h1"> Input Groups </h1>
+                <pre>
+    -Classes in input groups
+        -input-group
+        -input-group-sm or md or lg
+        -input-group-prepend
+        -input-group-append
+        -input-group-text
+
+    Eg:
+            &ltdiv class="input-group">
+            &ltdiv class="input-group-prepend">
+            &ltdiv class="input-group-text">
+            &ltspan>₹&lt/span>
+            &ltinput class="form-control">
+            &lt/div>
+            &lt/div>
+            &lt/div>
+
+    -dropdown
+        -dropdown-toggle
+        -dropdown-menu
+        -dropdown-item
+        -dropdown-toggle-split
+        -dropdown-divider
+    Eg
+        &ltdiv class="dropdown-menu">
+        &ltdiv class="dropdown-item">Master&lt/div>
+        &ltdiv class="dropdown-item">Miss&lt/div>
+        &ltdiv class="dropdown-item">Mrs&lt/div>
+        &ltdiv class="dropdown-item">Mister&lt/div>
+        &lt/div>
+                </pre>
+                <div class="btnn">
+                    <a href="bootstrap.html"> Back </a>
+                </div>
+            </div>
+            <br><hr><br>
+
+            <div id="bootforms">
+                <h1 class="h1"> Forms </h1>
+                <pre>
+    Form Classes
+        -form-group
+        -form-control
+        -form-text
+        -form-check
+        -form-check-inline
+        -form-check-label
+Eg
+&ltform>
+&ltdiv class="form-group">
+&ltlabel for="exampleInputEmail1">Email address&lt/label>
+&ltinput type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
+ placeholder="Enter email"> &ltsmall id="emailHelp" class="form-text text-muted">We'll never 
+ share your email with anyone else.&lt/small>
+&lt/div>
+&ltdiv class="form-group">
+&ltlabel for="exampleInputPassword1">Password&lt/label> &ltinput type="password" 
+ class="form-control" id="exampleInputPassword1" placeholder="Password"> &lt/div>
+&ltdiv class="form-group form-check">
+&ltinput type="checkbox" class="form-check-input" id="exampleCheck1">
+&ltlabel class="form-check-label" for="exampleCheck1">Check me out&lt/label>
+&lt/div>
+&ltbutton type="submit" class="btn btn-primary">Submit&lt/button>
+&lt/form>
+                </pre>
+                <div class="btnn">
+                    <a href="bootstrap.html"> Back </a>
+                </div>
+            </div>
+
+
+            </div>
+
+
+            
+    </body>
+</html>
